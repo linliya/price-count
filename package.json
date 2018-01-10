@@ -14,10 +14,16 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "css-loader": "^0.28.8",
     "gulp": "^3.9.1",
     "iconv-lite": "^0.4.19",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-loader": "^13.6.2",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^3.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

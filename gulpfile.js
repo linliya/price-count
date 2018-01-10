@@ -2,8 +2,6 @@
 
 // Include Gulp & tools we'll use
 const gulp = require('gulp');
-// data-maker
-const del = require('del')
 const dealExcel = require('./src/components/node/deal-excel.js');
 
 gulp.task('build', function () {

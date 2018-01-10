@@ -4,6 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// axios
+import axios from 'axios'
+let httpRequest = axios.create({
+  timeout: 10000
+})
+Vue.prototype.$http = httpRequest
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
